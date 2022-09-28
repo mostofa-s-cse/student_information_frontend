@@ -1,0 +1,79 @@
+.Home{
+    margin-top: 100px;
+    text-align: center;
+}
+table {
+	width: 80%;
+	border-collapse: collapse;
+    margin: auto;
+}
+table, td {
+	border: 1px solid;
+	padding: 4px;
+}
+th {
+	border: 1px solid;
+	background-color: lightgray;
+	padding: 10px 0px;
+}
+  
+.btn{
+	padding: 8px 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px;
+    color: white;
+}
+
+
+
+.model {
+	margin: auto;
+	background-color: lightgray;
+	width: 700px;
+	padding: 30px 60px;
+	border-radius: 10px;
+	opacity: none;
+	visibility: hidden;
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    right: 0 !important;
+    transform: translate(-50%, -50%);
+}
+.active{
+    visibility: visible;
+}
+.modelHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.model form{
+    width: 100%;
+    
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
